@@ -11,7 +11,7 @@ Installation
 --------------
 
 - Download this git repo by clicking ZIP button in the top of this page
-- Locate tweatdeck.crx file, go to menu > Settings > Extensions (or type chrome://chrome/extensions/ to address bar), drag and drop tweakdeck.crx to Chrome window.
+- Locate the crx file, go to menu > Settings > Extensions (or type chrome://chrome/extensions/ to address bar), drag and drop the file to Chrome window.
 - Have fun!
 
 (remember to follow: www.twitter.com/rolle)

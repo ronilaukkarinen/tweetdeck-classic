@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>TweetDeck</title>
+    <meta name="application-name" content="TweetDeck">
+    <meta name="description" content="TweetDeck is your personal browser for staying in touch with what’s happening now, connecting you with your contacts across Twitter and Facebook.">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="viewport" content="width=device-width, height=700, initial-scale=1, user-scalable=yes">
+    <meta http-equiv="X-UA-Compatible" content="chrome=1"> <!-- Enable Chrome Frame -->
+    <meta http-equiv="Default-Style" content="dark">
+    <!-- CSS -->
+    <link rel="stylesheet" href="/web/css/font.e2e7c5e80a.css">
+    <link rel="stylesheet" href="/web/css/app-dark.6e8455423b.css" title="dark">
+    <link rel="stylesheet" href="/web/css/app-light.d634b5deb1.css" title="light">
+    <!-- Icons -->
+    <link rel="shortcut icon" href="/web/assets/logos/favicon.67208ada0c.ico">
+    <link rel="apple-touch-icon" sizes="57x57" href="/web/assets/logos/ios-icon-iphone.b60ae08a47.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="/web/assets/logos/ios-icon-ipad.1bf9b0dee8.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="/web/assets/logos/ios-icon-iphone@2x.e69e1ecaec.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="/web/assets/logos/ios-icon-ipad@2x.ff99fd6116.png">
+</head>
+<body>
+
+    <audio style="display:none" preload="auto" id="update-sound" autobuffer>
+        <source src="/web/assets/sounds/tweet.de96e2b3d6.mp3" type="audio/mp3">
+        <source src="/web/assets/sounds/tweet.9663ad9dcb.ogg" type="audio/ogg">
+    </audio>
+
+    <div class="js-app-loading ovl-plain txt-center" style="display:block">
+        <div class="ovl-block sign-in">
+            <div class="srt-logo"></div>
+            <div class="js-signin-ui txt-center block">
+                <img src="/web/assets/global/backgrounds/spinner_large_grey_light.b639ecbade.gif" alt="{{_i}}Loading...{{/i}}">
+            </div>
+        </div>
+    </div>
+
+    <div class="js-app application"></div>
+
+    <script src="/web/mustaches/mustaches.bb49888472.js"></script>
+    <script type="text/javascript" src="/web/scripts/default.5ae4d02e7e.js"></script>
+
+    <script type="text/javascript" data-main="/web/scripts/swift/app/main.52854b1ff3.js" src="/web/scripts/lib/require.88bb75348e.js"></script>
+</body>
+</html>

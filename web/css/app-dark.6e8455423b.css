@@ -1465,7 +1465,7 @@ article.stream-item a {
 	background:#444444 !important;
 }
 
-.username .at, .fullname { display:none !important; }
+.username .at, .tweet .fullname { display:none !important; }
 
 .username {
 	font-family:"Arial" !important;
@@ -1513,4 +1513,12 @@ article.stream-item a {
 }
 article.stream-item a[rel=viewDetails] {
     color:#888888;
+}
+
+.facebook-block .nbfc {
+    margin-left:59px;
+}
+
+.tweet .tweet-text, .tweet .account-link, .tweet .tweet-footer {
+    padding-left:2px;
 }

@@ -215,7 +215,7 @@ small { font-size: 0.8571rem }
 .padding-tn { padding-top: 0 !important }
 .padding-ts { padding-top: 5px !important }
 .padding-tm { padding-top: 8px !important }
-.padding-tl { padding-top: 10px !important }
+.padding-tl { padding-top: 1px !important }
 .margin-tn { margin-top: 0 !important }
 .margin-txs { margin-top: 2px !important }
 .margin-ts { margin-top: 5px !important }
@@ -1441,7 +1441,6 @@ article.stream-item a {
 }
 
 .app-columns section {
-    float: left;
     height: 100%;
     width: 324px;
     position: relative;
@@ -1469,7 +1468,6 @@ article.stream-item a {
 .username .at, .fullname { display:none !important; }
 
 .username {
-	font-size:12px !important;
 	font-family:"Arial" !important;
     font-weight: bold;
     color: #cccccc;
@@ -1493,6 +1491,26 @@ article.stream-item a {
 
 .scroll-conversation .tweet-detail {
 	padding:10px;
-	font-size:12px !important;
 	font-family:"Arial" !important;
+}
+
+.tweet-img {
+    position:absolute;
+    top:12px;
+}
+.icon-retweet {
+    position:absolute;
+    top:12px;
+    right:10px;
+}
+
+.tweet .nbfc a {
+    margin:0 0 0 59px;
+}
+
+.facebook-block .nbfc a {
+    margin:0 !important;
+}
+article.stream-item a[rel=viewDetails] {
+    color:#888888;
 }

@@ -18,7 +18,7 @@
       "32": "web/assets/logos/32.png",
       "48": "web/assets/logos/48.png"
    },
-   "key": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQC0ggbR0zpN0K7kX7H6eBENb5dcOcBH5dMSfWrksRoo7DbscwRnQtU8Rxo6UTbDpMzv5F7k9YDY0b35LJUnphZzkyyfEYkDsA9QFFTPz2zYlYi7OedlQvJamNfpyPRt5ZX9NR/JMABg3cOabpJQUXtsTUPWxVkvp5EzD62yCq6p9wIDAQAB",
+   "key": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDQJWlODiYAdhIMRzdwD7HQ+mJkU3OEl58h6AVpYR4rToRAWPY+XhxqYj7YTwI3RMEjVpvt1VWiNrQUj5nZaVrjLxVBbGlvxwkevIkXhecOaxrjCfi5rBBw7h6uhyq0eje/pujRAAr7pxfOVa3C6iC0TXfNtNpzV5FEPOrpzx5CuQIDAQAB",
    "manifest_version": 2,
    "minimum_chrome_version": "18",
    "name": "TweetDeck",

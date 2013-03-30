@@ -1519,6 +1519,13 @@ article.stream-item a[rel=viewDetails] {
     margin-left:59px;
 }
 
-.tweet .tweet-text, .tweet .account-link, .tweet .tweet-footer {
+.tweet .nbfc a, .tweet .tweet-text, .tweet .account-link, .tweet .tweet-footer {
     padding-left:2px;
+}
+
+.icon-retweet.icon-retweet-toggle {
+    position:relative;
+    top:0;
+    left:0;
+    right:0;
 }

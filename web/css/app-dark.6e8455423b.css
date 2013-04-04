@@ -1385,6 +1385,7 @@ a.caldisabled { background-color: #f2f2f2 !important;color:#ccc !important;curso
 }
 
 .tweet {
+    position:relative;
     color: #fff;
     font-size:12px;
     border-bottom: 1px solid #272727;
@@ -1515,7 +1516,7 @@ article.stream-item a[rel=viewDetails] {
     color:#888888;
 }
 
-.facebook-block .nbfc {
+.facebook-block .nbfc, .account-summary .nbfc-alt {
     margin-left:59px;
 }
 

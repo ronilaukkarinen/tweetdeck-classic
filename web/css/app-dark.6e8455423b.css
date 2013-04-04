@@ -1530,3 +1530,10 @@ article.stream-item a[rel=viewDetails] {
     left:0;
     right:0;
 }
+
+.app-nav-logo-text {
+    background: -webkit-linear-gradient(#fff, #cecece);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-shadow:0 2px 2px #111;
+}

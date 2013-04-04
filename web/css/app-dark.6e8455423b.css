@@ -527,7 +527,7 @@ h6 { font-size: 11px }
 .is-expanding { overflow: hidden }
 .item-box { position: relative;padding:0; }
 .item-img { width: 48px }
-.activity-header { margin: 0 0 4px }
+.activity-header { margin: 10px 0; }
 .activity-indicator { width: 18px;height:18px;font-size:18px;line-height:18px }
 .list-item { color: #111 }
 .list-item:hover,

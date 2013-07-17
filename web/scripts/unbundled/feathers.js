@@ -1,17 +1,70 @@
 TD.controller.feather.applyFeathers([
     {
-        id: 9,
+        id: 12,
         patch: function () {
-            if (TD.util.versionComparator(TD.version, '2.5.0') === -1) {
-                return;
+            TD.services.TwitterClient.prototype.INTERNAL_API_BASE_URL = TD.services.TwitterClient.prototype.API_BASE_URL;
+        }
+    },
+    {
+        id: 11,
+        patch: function () {
+            if (!TD.util.versionComparator
+                || TD.util.versionComparator(TD.version, '2.5.3') === -1) {
+                window.location.assign('https://web.tweetdeck.com/web/deprecated.html?appenv='
+                    + TD.util.getAppEnv());
             }
+        }
+    },
+    {
+        id: 10,
+        patch: function () {
+            TD.controller.columnManager.DISPLAY_ORDER = _.reject(TD.controller.columnManager.DISPLAY_ORDER,
+                function (column) {
+                    return column.service == 'facebook';
+                }
+            );
 
-            // Save the old function in case we need it later
-            TD.services.TwitterClient.prototype._getHomeTimeline = TD.services.TwitterClient.prototype.getHomeTimeline;
+            // Delay enough for accounts to be setup and logged in.
+            _.delay(function () {
+                var messages =  {
+                    messages: [
+                        {
+                            message: {
+                                id: 'facebook-account-removed2',
+                                text: 'We\'ve removed Facebook integration from TweetDeck.',
+                                colors : {
+                                    foreground : '#555',
+                                    background : '#b2d5ed'
+                                },
+                                actions : [{
+                                    id : 'read-more',
+                                    label : 'Read More',
+                                    action : 'url-ext',
+                                    url : 'https://blog.twitter.com/2013/update-tweetdeck'
+                                }]
+                            }
+                        }
+                    ]
+                };
+                var accounts;
 
-            TD.services.TwitterClient.prototype.getHomeTimeline = function (sinceID, maxID, count, callback, errback) {
-                this.getTimeline('https://api.twitter.com/1/statuses/home_timeline.json', sinceID, maxID, count, callback, errback);
-            };
+                if (TD.storage.accountController.getAccountsForService) {
+                    accounts = TD.storage.accountController.getAccountsForService('facebook');
+                    if (accounts.length > 0) {
+                        if (!TD.util.versionComparator ||
+                            TD.util.versionComparator(TD.version, '2.7.6') == -1) {
+                            _.each(accounts, function (account) {
+                                TD.controller.clients.removeClient(account.getKey());
+                            });
+
+                            $(document).trigger('dataMessages', messages);
+                        }
+                    }
+                }
+
+                delete TD.storage.accountController.ACCEPTED_ACCOUNT_TYPES.facebook;
+
+            }, 20000);
         }
     },
     {

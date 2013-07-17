@@ -7,7 +7,7 @@
    "background": {
       "page": "web/templates/background.html"
    },
-   "content_security_policy": "script-src 'self' 'unsafe-eval' https://*.twitter.com https://*.twimg.com https://ssl.google-analytics.com https://graph.facebook.com https://api-read.facebook.com https://api-ssl.bitly.com; object-src 'self' https://www.youtube.com",
+   "content_security_policy": "script-src 'self' 'unsafe-eval' https://*.twitter.com https://*.twimg.com https://ssl.google-analytics.com https://api-ssl.bitly.com; object-src 'self' https://www.youtube.com",
    "default_locale": "en_US",
    "description": "__MSG_Yourpersonalbrowserforstayingintouchwithwhatshappeningnow__",
    "homepage_url": "http://www.tweetdeck.com/",
@@ -18,11 +18,11 @@
       "32": "web/assets/logos/32.png",
       "48": "web/assets/logos/48.png"
    },
-   "key": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDQJWlODiYAdhIMRzdwD7HQ+mJkU3OEl58h6AVpYR4rToRAWPY+XhxqYj7YTwI3RMEjVpvt1VWiNrQUj5nZaVrjLxVBbGlvxwkevIkXhecOaxrjCfi5rBBw7h6uhyq0eje/pujRAAr7pxfOVa3C6iC0TXfNtNpzV5FEPOrpzx5CuQIDAQAB",
+   "key": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQD74o7p0DIZ0Gp6IA39ThhjDdFZI1EIus+NSGd6ueXyBoN2RyF5Qn3sFugEjv/mxu32N3CfpC79OsIQq9CgrdsYXOW4SmPTGIr9yax7HEJCqPoQWfjoMNUujONXmULkBJu0ZGyaaorRql2v2OSV6R5gkYef7mRcxGFRNrGTLADjkwIDAQAB",
    "manifest_version": 2,
    "minimum_chrome_version": "18",
    "name": "TweetDeck",
-   "permissions": [ "unlimitedStorage", "tabs", "notifications", "geolocation", "contextMenus", "https://*.twitter.com/", "http://*.tweetdeck.com/", "https://*.tweetdeck.com/", "https://*.facebook.com/" ],
-   "update_url": "http://disabled",
-   "version": "2.7.5"
+   "permissions": [ "unlimitedStorage", "tabs", "notifications", "geolocation", "contextMenus", "https://*.twitter.com/", "http://*.tweetdeck.com/", "https://*.tweetdeck.com/" ],
+   "update_url": "https://disabled-updates",
+   "version": "3.1.3"
 }

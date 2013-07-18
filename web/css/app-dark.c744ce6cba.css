@@ -2819,8 +2819,8 @@ h6 {
 }
 
 .media-size-small {
-    width: 50%;
-    height: 77px;
+    width: 100%;
+    height: 116px;
 }
 
 .media-size-large {
@@ -2838,7 +2838,7 @@ h6 {
 }
 
 .is-narrow-columns .media-size-small {
-    height: 64px;
+/*    height: 64px;*/
 }
 
 .is-wide-columns .media-size-large {

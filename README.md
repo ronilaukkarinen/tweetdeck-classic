@@ -5,8 +5,6 @@ I loved how TweetDeck looked like before Twitter made the UI less attractive (so
 
 Tweetdeck Classic is a Google Chrome extension for Twitter (used to be also for Facebook, Foursquare and Google Buzz, but Twitter guys ruined it, again) with UI developed further from the original Tweetdeck.
 
-**Please note:** After Google Chrome update 28.0.1500 Chrome has [rich notifications](http://lifehacker.com/chrome-update-brings-rich-notifications-to-all-users-722534872) and webkit/html notifications won't display any longer. If you'd like to see the popups, disable new notifications from chrome://flags.
-
 This extension won't update automatically! It also forces the theme look like it is, so not much customizations available through admin panels. All credit, honor and glory to Twitter Inc! I do not own this software.
 
 Installation

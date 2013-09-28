@@ -10,8 +10,8 @@ This extension won't update automatically! It also forces the theme look like it
 Installation
 --------------
 
-- Download this git repo by clicking ZIP button in the top of this page
-- Unzip the ZIP file, locate the crx file, go to menu > Settings > Extensions (or type chrome://chrome/extensions/ to address bar), drag and drop the file to Chrome window.
+- [Download the latest version (save as!)](https://github.com/ronilaukkarinen/tweetdeck-classic/blob/master/3.2.8_0.crx?raw=true)
+- Locate the file you just downloaded, Go to menu > Settings > Extensions (or type chrome://chrome/extensions/ to address bar), drag and drop the file to Chrome window.
 - Have fun!
 
 If you'd like to know more what I'm doing, [follow me on Twitter](http://www.twitter.com/rolle).

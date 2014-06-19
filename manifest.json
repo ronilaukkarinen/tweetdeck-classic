@@ -18,11 +18,11 @@
       "32": "web/assets/logos/32.png",
       "48": "web/assets/logos/48.png"
    },
-   "key": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQD74o7p0DIZ0Gp6IA39ThhjDdFZI1EIus+NSGd6ueXyBoN2RyF5Qn3sFugEjv/mxu32N3CfpC79OsIQq9CgrdsYXOW4SmPTGIr9yax7HEJCqPoQWfjoMNUujONXmULkBJu0ZGyaaorRql2v2OSV6R5gkYef7mRcxGFRNrGTLADjkwIDAQAB",
+   "key": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCqs23JyCG9zfdNqDNE24p8WzQ9Cg9ZHZlXFDih1MbXlKcXZO9vvPi7MhdluCw/+DkgZupWAJCuaDCwkSsA35M4nwPRBY3DiFl68I9s5y+f0TEOMXUt3/nuWYp+4n7V3PheQyuzotZmrKXjwP5ABscxoGX8SPPQ21tOPhQRTn/2uQIDAQAB",
    "manifest_version": 2,
    "minimum_chrome_version": "18",
-   "name": "TweetDeck",
+   "name": "TweetDeck Classic",
    "permissions": [ "unlimitedStorage", "tabs", "notifications", "geolocation", "contextMenus", "https://*.twitter.com/", "http://*.tweetdeck.com/", "https://*.tweetdeck.com/" ],
    "update_url": "https://disabled-updates",
-   "version": "3.1.3"
+   "version": "3.7.3"
 }
